@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.shopping-bucket {
+	display: flex;
+}
+
+.fruits {
+	width: 100%;
+}
+
+.cart {
+	width: 80%;
+	float: right;
+}
+
+.image-apple {
+	background-image: url('http://source.unsplash.com/random/150x150?apple');
+	width: 150px;
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.image-mango {
+	background-image: url('http://source.unsplash.com/random/150x150?mango');
+	width: 150px;
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.image-pear {
+	background-image: url('http://source.unsplash.com/random/150x150?pear');
+	width: 150px;
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.image-grapes {
+	background-image: url('http://source.unsplash.com/random/150x150?grapes');
+	width: 150px;
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.show-border {
+	border: 3px dotted black;
+}
